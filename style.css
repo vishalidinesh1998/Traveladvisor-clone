@@ -9,6 +9,7 @@ body {
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
+    overflow-x: auto;
 }
 
 .Navbar-2 {
@@ -697,7 +698,7 @@ body {
     }
 
     .sesimages {
-        flex-basis: 30%;
+        flex-basis: 40%;
     }
 
     .footer_two__s2,
