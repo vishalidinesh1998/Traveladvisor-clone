@@ -683,6 +683,7 @@ body {
     }
     .Caption-1{
         display: block;
+        max-width: 500px;
     }
 
     .caption-contains-1{
