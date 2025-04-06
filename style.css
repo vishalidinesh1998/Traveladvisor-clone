@@ -14,6 +14,10 @@ body {
 .Navbar-2 {
     display: none;
 }
+.caption-1{
+    display: none;
+    z-index:2;
+}
 
 .navbar__1 {
     display: flex;
@@ -47,8 +51,8 @@ body {
 }
 
 .navbar_title__1 img {
-    width: 45px;
-    height: 45px;
+    width: 25px;
+    height: 25px;
 
 }
 
@@ -525,6 +529,14 @@ body {
 
 }
 
+
+.Caption-1,.caption-contains-1{
+    display: none;
+    /* display: flex; */
+
+
+}
+
 .footer {
     background-color: rgb(240, 235, 235);
     color: rgb(42, 41, 41);
@@ -598,6 +610,7 @@ body {
     margin: 5px 0;
 }
 
+
 .footer_two__s1 img {
     width: 35px;
     height: 35px;
@@ -665,6 +678,22 @@ body {
     .Navbar-1 {
         display: none;
     }
+    .caption{
+        display: none;
+    }
+    .Caption-1{
+        display: block;
+    }
+
+    .caption-contains-1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 20px;
+        background-color: #F2ECF9;
+        width:700px;
+    }
 
     .sesimages {
         flex-basis: 30%;
@@ -675,10 +704,6 @@ body {
         display: none;
     }
 
-    .caption {
-        flex-basis: 40%;
-    }
-
     .Hyderabad__imges {
         flex-basis: 40%;
     }
@@ -687,4 +712,9 @@ body {
         flex-basis: 40%;
         font-size: 10px;
     }
+    .footer_two__s3 select
+    {
+        display: none;
+    }
+ 
 }
